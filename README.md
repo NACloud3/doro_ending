@@ -1,2 +1,4 @@
-# doro_ending
-doro互动故事插件
+# doro互动故事
+# 演示
+/doro 开始游戏
+/选择 A/B/C  做出选择（要打空格）
