@@ -376,7 +376,7 @@ user_game_state = {}
 IMAGE_DIR = os.path.join(os.path.dirname(__file__), "images")
 
 
-@register("doro_story_game", "YourName", "一个Doro的故事游戏插件", "1.0.0", "repo url")
+@register("doro_ending", "hello七七", "Doro互动故事插件", "1.0.0", "https://github.com/ttq7/doro_ending")
 class DoroStoryGamePlugin(Star):
     def __init__(self, context: Context):
         super().__init__(context)
