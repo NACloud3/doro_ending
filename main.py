@@ -157,7 +157,7 @@ STORY_DATA = {
                     {"node": "race_ending", "probability": 0.4}
                 ]
             },
-            "B": {"text": "选择蓝丸", "next": "staffawakening_ending"},
+            "B": {"text": "选择蓝丸", "next": "staffawakening2_ending"},
             "C": {
                 "text": "吃掉彩丸",
                 "next": [
@@ -168,7 +168,7 @@ STORY_DATA = {
             "D": {"text": "随机服药", "next": [
                 {"node": "sloth_ending", "probability": 0.2},
                 {"node": "race_ending", "probability": 0.2},
-                {"node": "staffawakening_ending", "probability": 0.3},
+                {"node": "staffawakening2_ending", "probability": 0.3},
                 {"node": "clouds_ending", "probability": 0.3}
             ]}
         }
@@ -268,6 +268,26 @@ STORY_DATA = {
         "image": "staffawakening2_ending.png",
         "is_end": True
     },
+    "mind_broken_end": {
+        "text": "陌生人忽然消失，那天，什么都没有发生，直到...",
+        "image": "jingshenhunluan_ending.jpeg",
+        "is_end": True
+    },
+    "gaokao_ending": {
+        "text": "你的思绪渐渐远离，恍惚间，你又置身于高三的教室中...",
+        "image": "gaokao_ending.jpeg",
+        "is_end": True
+    },
+    "takeoff_failed_end": {
+        "text": "你想到了那一次不堪的经历，那是一个早晨...",
+        "image": "takeofffailed_ending.jpeg",
+        "is_end": True
+    },
+    "laze_ending": {
+        "text": "你用了各种技巧，来最小化自己的工作量应付工作，渐渐的你了熟于心...",
+        "image": "laze_ending.png",
+        "is_end": True
+    },
 
     # 幻想系结局
     "butterfly_ending": {
@@ -325,6 +345,11 @@ STORY_DATA = {
     "kfc_end": {
         "text": "在疯狂星期四，KFC的美味验证了宇宙真理，快乐与满足在此刻绽放...",
         "image": "abd814eba4fa165f44f3e16fb93b3a72.png",
+        "is_end": True
+    },
+    "jerboff_end": {
+        "text": "陌生人教了你一种从没听过的纸巾的用途，你开始尝试...",
+        "image": "ba904a2d0a5779a13b4ab8cd145f5cb2.png",
         "is_end": True
     },
 
