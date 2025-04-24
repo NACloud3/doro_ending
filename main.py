@@ -352,6 +352,11 @@ STORY_DATA = {
         "image": "ba904a2d0a5779a13b4ab8cd145f5cb2.png",
         "is_end": True
     },
+    "indolent_ending": {
+        "text": "你跳入了鱼缸，透过玻璃缸观察着现实的扭曲景象，此刻你变成了一条无忧无虑的小鱼儿...",
+        "image": "indolent_ending.png",
+        "is_end": True
+    },
 
     # 特殊交互结局
     "dream_end": {
@@ -479,4 +484,3 @@ class DoroStoryGamePlugin(Star):
             for key, opt in options.items():
                 options_text += f"{key}. {opt['text']}\n"
             await event.send(event.plain_result(options_text))
-    
